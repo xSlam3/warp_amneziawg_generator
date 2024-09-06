@@ -51,6 +51,6 @@ H4 = 4"
 # Main code
 config=$(generate_config)
 modified_config=$(modify_config "$config")
-apt -y install qrencode > dev/null 2>&1
+apt -y install qrencode > /dev/null 2>&1
 echo "$modified_config" | qrencode -t ansiutf8
 echo "$modified_config"

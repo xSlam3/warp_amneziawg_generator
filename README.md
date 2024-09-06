@@ -40,4 +40,4 @@ curl -o wwgcf.sh https://raw.githubusercontent.com/xSlam3/warp_amneziawg_generat
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the GNU GENERAL PUBLIC LICENSE.

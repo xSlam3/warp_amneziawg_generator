@@ -41,7 +41,7 @@ H4 = 4"
         if [[ $line == "DNS ="* ]]; then
             echo "DNS = 8.8.8.8"
         elif [[ $line == "Endpoint ="* ]]; then
-            echo "Endpoint = 162.159.193.5:2408"
+            echo "Endpoint = 188.114.97.66:2408"
         else
             echo "$line"
         fi
